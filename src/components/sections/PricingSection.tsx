@@ -140,6 +140,7 @@ export const PricingSection = () => {
                   size="default" 
                   className="w-full text-sm md:text-base py-2 md:py-3"
                   pulse
+                  onClick={() => window.open('https://pay.cakto.com.br/85jornr', '_blank')}
                 >
                   QUERO O ACESSO PREMIUM AGORA!
                 </CTAButton>

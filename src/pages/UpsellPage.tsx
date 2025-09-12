@@ -166,6 +166,7 @@ const UpsellPage = () => {
                     size="xl" 
                     className="w-full text-lg"
                     pulse
+                    onClick={() => window.open('https://pay.cakto.com.br/3qby4qv', '_blank')}
                   >
                     🔥 SIM! QUERO O UPGRADE PREMIUM POR R$ 15,90!
                   </CTAButton>
@@ -197,7 +198,7 @@ const UpsellPage = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button 
-                onClick={() => window.history.back()}
+                onClick={() => window.open('https://pay.cakto.com.br/fqzp4fo', '_blank')}
                 className="text-primary-foreground/70 underline hover:text-primary-foreground transition-colors"
               >
                 Não, prefiro continuar com o plano de R$ 9,90

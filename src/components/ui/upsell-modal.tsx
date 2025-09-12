@@ -130,6 +130,7 @@ export const UpsellModal = ({ open, onOpenChange }: UpsellModalProps) => {
                   size="sm" 
                   className="w-full text-xs sm:text-lg py-1 sm:py-4"
                   pulse
+                  onClick={() => window.open('https://pay.cakto.com.br/3qby4qv', '_blank')}
                 >
                   🔥 QUERO UPGRADE PREMIUM!
                 </CTAButton>
@@ -157,7 +158,7 @@ export const UpsellModal = ({ open, onOpenChange }: UpsellModalProps) => {
             </div>
 
             <button 
-              onClick={() => onOpenChange(false)}
+              onClick={() => window.open('https://pay.cakto.com.br/fqzp4fo', '_blank')}
               className="text-muted-foreground underline hover:text-foreground transition-colors text-xs sm:text-sm"
             >
               Não, prefiro continuar com o plano de R$ 9,90
