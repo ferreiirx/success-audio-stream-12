@@ -33,7 +33,7 @@ export const HeroSection = () => {
               
               <h1 className="text-3xl md:text-4xl lg:text-6xl font-black text-primary-foreground leading-tight">
                 <span className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-                  200 Audiobooks
+                  200 Audiobooks + 3500 Livros
                 </span>{" "}
                 <span className="text-primary-foreground">Best-Sellers</span>
               </h1>
