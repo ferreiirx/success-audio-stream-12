@@ -55,30 +55,6 @@ export const HeroSection = () => {
               </div>
             </div>
 
-            {/* Simple Card with Price and CTA */}
-            <div className="bg-card/90 border border-accent/30 rounded-2xl p-6 backdrop-blur-sm text-center relative">
-              {/* Últimas Unidades Badge */}
-              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                <div className="bg-red-500 text-white px-4 py-1 rounded-full text-xs font-bold animate-pulse shadow-lg">
-                  ÚLTIMAS UNIDADES
-                </div>
-              </div>
-              
-              <p className="text-sm text-muted-foreground mb-2">Comece hoje por apenas</p>
-              <div className="space-y-1 mb-4">
-                <p className="text-2xl text-muted-foreground line-through">De R$ 39,90</p>
-                <p className="text-5xl font-black gradient-accent bg-clip-text text-transparent">R$ 9,90</p>
-              </div>
-              
-              <CTAButton 
-                variant="premium" 
-                size="default" 
-                onClick={scrollToOffers}
-                className="w-full max-w-xs mx-auto"
-              >
-                OBTER AGORA
-              </CTAButton>
-            </div>
 
             <p className="text-lg text-primary-foreground/70 leading-relaxed">
               Você sente que está pronto para o próximo nível? 
